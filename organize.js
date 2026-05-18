@@ -36,4 +36,4 @@ files.forEach(file => {
     fs.copyFileSync(path.join(originalDir, file), path.join(minusculas, lowerFile));
 });
 
-console.log('Archivos organizados exitosamente para Fuente_dos.');
+console.log('Archivos organizados exitosamente para LuissFuenteDos.');

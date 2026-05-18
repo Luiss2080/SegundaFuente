@@ -1,7 +1,7 @@
 {
-  "name": "fuente_dos",
+  "name": "luissfuentedos",
   "version": "1.0.0",
-  "description": "Repositorio independiente para Fuente_dos",
+  "description": "Repositorio independiente para LuissFuenteDos",
   "main": "build_direct.js",
   "scripts": {
     "build": "node build_direct.js"

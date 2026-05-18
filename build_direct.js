@@ -3,10 +3,10 @@ const svg2ttf = require('svg2ttf');
 const fs = require('fs');
 const path = require('path');
 
-console.log('Iniciando compilación directa para Fuente_dos...');
+console.log('Iniciando compilación directa para LuissFuenteDos...');
 
 const fontStream = new SVGIcons2SVGFontStream({
-  fontName: 'Fuente_dos',
+  fontName: 'LuissFuenteDos',
   fontHeight: 1000,
   normalize: true
 });
@@ -19,7 +19,7 @@ fontStream.on('data', chunk => {
 fontStream.on('end', () => {
   console.log('SVGs combinados. Generando TTF...');
   const ttf = svg2ttf(svgContent, {});
-  const destPath = path.join(__dirname, 'fonts', 'Fuente_dos.ttf');
+  const destPath = path.join(__dirname, 'fonts', 'LuissFuenteDos.ttf');
   fs.writeFileSync(destPath, Buffer.from(ttf.buffer));
   console.log('¡Fuente TTF generada en ' + destPath + '!');
 });
