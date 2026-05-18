@@ -1,0 +1,13 @@
+{
+  "name": "fuente_dos",
+  "version": "1.0.0",
+  "description": "Repositorio independiente para Fuente_dos",
+  "main": "build_direct.js",
+  "scripts": {
+    "build": "node build_direct.js"
+  },
+  "dependencies": {
+    "svg2ttf": "^6.0.3",
+    "svgicons2svgfont": "^12.0.0"
+  }
+}
