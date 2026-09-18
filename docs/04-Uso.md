@@ -10,6 +10,6 @@
 
 ### Consejos para un mejor resultado
 - **Tamaño:** Debido a los detalles de los trazos, se recomienda usar esta fuente en tamaños grandes (por ejemplo, **48pt o 72pt**) para usarla como títulos, logotipos, o iniciales decorativas (Letras Capitulares).
-- **Formatos web:** Si eres desarrollador web, en la carpeta `/fonts` también se encuentran los archivos `.woff` y `.woff2`, los cuales están optimizados para integrarse directamente en páginas web mediante CSS.
+- **Formatos web:** Si eres desarrollador web, en la carpeta `/fonts` hoy solo existe `LuissFuenteDos.ttf`; puede usarse en CSS con `@font-face` (los formatos `.woff`/`.woff2` aún no se generan).
 
 ¡Disfruta de tu nueva tipografía!
